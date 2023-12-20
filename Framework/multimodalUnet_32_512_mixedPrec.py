@@ -73,17 +73,20 @@ msk_identifier = ["mask1", "mask2"]
 
 modalities = ["flair", "t1", "t2", "pd"]
 
+base_data = "" # path where your base volumes are stored
+
+dest_data = "" # path, where your sliced data should be stored
+
+dest_trained_nets = f"" # path, where your trained networks should be stored
+
+
 one = subj_identifier[0]
 two = subj_identifier[1]
 three = subj_identifier[2]
 four = subj_identifier[3]
 five = subj_identifier[4]
 
-base_data = "/raid/florianr/ISBI_Test/ISBI_DATA"
 
-dest_data = "/raid/florianr/full_pipeline_old_rescaling_different_augm/Datasets/ISBI_test"
-
-dest_trained_nets = f"/raid/florianr/full_pipeline_old_rescaling_different_augm/Trained_Nets/{exp_name}"
 
 train1 = [one, two, three, four, "_123_4"]
 train2 = [one, two, three, five, "_123_5"]
