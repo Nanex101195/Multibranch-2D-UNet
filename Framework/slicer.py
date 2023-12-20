@@ -4,7 +4,7 @@
 #                v1.1                   #
 #                                       #
 #       Written by Florian Raab         #
-#  Florian.Raab@stud.uni-regensburg.de  #
+#  Florian.Raab@ukr.de  #
 #              19 Dec 2020              #
 #########################################
 #
